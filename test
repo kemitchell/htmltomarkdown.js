@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+
+test "$(echo "<h1>Test</h1>" | ./bin.js)" = "Test\n===\n"
+test "$(echo "<em>emphasized</em> and <strong>strong</stong>" | ./bin.js)" = "_emphasized_ and **strong**"
