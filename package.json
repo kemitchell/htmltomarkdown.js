@@ -1,0 +1,7 @@
+{
+  "name": "@kemitchell/htmltomarkdown",
+  "bin": "bin.js",
+  "dependencies": {
+    "turndown": "^7.2.0"
+  }
+}
